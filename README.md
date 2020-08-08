@@ -2,6 +2,8 @@
 
 A script that generates a colorful "low-voxel" (like low-poly but for voxels) city. It produces a `.vox` file that can be rendered with [MagicaVoxel](https://ephtracy.github.io/). It also produces a `.png` floorplan image of the city.
 
+[Blog Post](https://blog.dennis.life/2020/08/08/voxel-city-generation/)
+
 ![Rendered City 1](example1.png)
 
 ## Running
@@ -25,7 +27,7 @@ The .vox file can be rendered with [MagicaVoxel](https://ephtracy.github.io/). (
 
 Prior to rendering I adjusted the first 3 colors in the color-palette (used for the building windows) to be emissive.
 
-MagicaVoxel currently does not seem to render the entire 2000-by-2000-by-3 city mesh. Instead, it renders only its central part. This is not a big issue, as the results still look nice.
+MagicaVoxel currently does not seem to render the entire 2000-by-2000-by-30 city mesh. Instead, it renders only its central part. This is not a big issue, as the results still look nice.
 
 ![Rendered City - Night](example2.png)
 
