@@ -25,9 +25,7 @@ Note that I use Python's type annotations, where I use [mypy](http://mypy-lang.o
 
 The .vox file can be rendered with [MagicaVoxel](https://ephtracy.github.io/). (It runs with Wine - for *nix users)
 
-Prior to rendering I adjusted the first 3 colors in the color-palette (used for the building windows) to be emissive.
-
-MagicaVoxel currently does not seem to render the entire 2000-by-2000-by-30 city mesh. Instead, it renders only its central part. This is not a big issue, as the results still look nice.
+Before rendering, I adjusted the first 3 colors in the color-palette (used for the building windows) to be emissive.
 
 ![Rendered City - Night](example2.png)
 
